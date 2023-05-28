@@ -1,7 +1,8 @@
-## Code for ReContriever (Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training) ##
+## ReContriever: Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training ##
 
-The repository contains the code to pre-train the ReContriever and Contriever models. 
-Our code is mainly built upon the official Github Repository [Facebookresearch/Contriever](https://github.com/facebookresearch/contriever).
+### Introduction
+This is the official code for ACL 2023 Findings paper "Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training". More details will be coming soon.
+Our code is mainly built upon the official Github Repository of [Facebookresearch/Contriever](https://github.com/facebookresearch/contriever).
 
 ## Data Preprocessing ##
 Please refer to the readme of [Facebookresearch/Contriever](https://github.com/facebookresearch/contriever), which provide a detailed guide for data preprocessing.
