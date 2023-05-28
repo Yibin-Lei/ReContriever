@@ -1,6 +1,6 @@
 ## ReContriever: Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training ##
 
-### Introduction
+## Introduction ##
 This is the official code for ACL 2023 Findings paper "Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training". More details will be coming soon.
 Our code is mainly built upon the official Github Repository of [Facebookresearch/Contriever](https://github.com/facebookresearch/contriever).
 
