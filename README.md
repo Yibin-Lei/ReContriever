@@ -1,11 +1,18 @@
 ## ReContriever: Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training ##
 
 ## Introduction ##
-This is the official code for ACL 2023 Findings paper "Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training". More details will be coming soon.
+This is the official code for ACL 2023 Findings paper "Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training".
 Our code is mainly built upon the official Github Repository of [Facebookresearch/Contriever](https://github.com/facebookresearch/contriever).
 
+## Python Env ##
+```
+conda create -n recontriever python=3.9
+conda activate recontriever
+pip install -r requirements.txt
+```
+
 ## Data Preprocessing ##
-Please refer to the readme of [Facebookresearch/Contriever](https://github.com/facebookresearch/contriever), which provide a detailed guide for data preprocessing.
+Please refer to the readme of [Facebookresearch/Contriever](https://github.com/facebookresearch/contriever), which provides a detailed guide for data preprocessing.
 
 ## Pretraining ##
 We provide the scripts to pre-train ReContriever and Contriever in *./pretrain_scripts* with 16 A100 GPUs.
